@@ -5,6 +5,7 @@ import Navbar from "@/components/Navbar";
 import  {InfoHome}  from "@/components/InfoHome";
 import  Footer  from "@/components/footer";
 import { ReactLenis } from "lenis/dist/lenis-react";
+import { RootProvider } from 'fumadocs-ui/provider';
 
 
 
@@ -25,40 +26,36 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
-    <html lang="en">
-      <ReactLenis 
+    <html lang="en" suppressHydrationWarning>
+      
+        
+        
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col min-h-screen`}>
+          <ReactLenis 
       root
       options={{
         // Learn more -> https://github.com/darkroomengineering/lenis?tab=readme-ov-file#instance-settings
         lerp: 0.05,
-      }}>
-        
-        
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      }}> 
+
           <Navbar/>
         
-          <main className=" max-w-gxl mx-auto">
-
-          </main>
           
-        {children}
-        <div className=" animate-pulse">
-        
-        
+          
+          <RootProvider>{children}</RootProvider>
 
-      </div>
         
         
       
-      <Footer/>
+          </ReactLenis>
       </body>
       
-      </ReactLenis>
+      
       
     </html>
     

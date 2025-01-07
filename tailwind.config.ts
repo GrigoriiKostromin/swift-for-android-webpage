@@ -1,11 +1,14 @@
 import type { Config } from "tailwindcss";
+import { createPreset } from 'fumadocs-ui/tailwind-plugin';
 
 export default {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
-
+    './content/**/*.{md,mdx}',
+    './mdx-components.{ts,tsx}',
+    './node_modules/fumadocs-ui/dist/**/*.js',
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
@@ -17,6 +20,7 @@ export default {
     },
     
   },
+  presets: [createPreset()],
   plugins: [require('@tailwindcss/typography')],
 } satisfies Config;
 
