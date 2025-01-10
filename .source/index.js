@@ -1,5 +1,7 @@
 import { toRuntime, toRuntimeAsync } from "fumadocs-mdx"
-import * as docs_0 from "../content/docs/index.mdx?collection=docs&hash=e2a97abc94d55e5c23fc69e0862f6edf"
-import * as docs_1 from "../content/docs/test.mdx?collection=docs&hash=e2a97abc94d55e5c23fc69e0862f6edf"
-export const docs = [toRuntime("doc", docs_0, {"path":"index.mdx","absolutePath":"C:/Users/grigo/OneDrive/Desktop/Webpage Draft/fumadocs-app/my-app/content/docs/index.mdx"}), toRuntime("doc", docs_1, {"path":"test.mdx","absolutePath":"C:/Users/grigo/OneDrive/Desktop/Webpage Draft/fumadocs-app/my-app/content/docs/test.mdx"})];
+import * as docs_0 from "../content/docs/hello.mdx?collection=docs&hash=d1b8eee0ccad9f002943f8b6e74a6519"
+import * as docs_1 from "../content/docs/index.mdx?collection=docs&hash=d1b8eee0ccad9f002943f8b6e74a6519"
+import * as docs_2 from "../content/docs/test.mdx?collection=docs&hash=d1b8eee0ccad9f002943f8b6e74a6519"
+import * as docs_3 from "../content/docs/TimeToShine/NewDoc.mdx?collection=docs&hash=d1b8eee0ccad9f002943f8b6e74a6519"
+export const docs = [toRuntime("doc", docs_0, {"path":"hello.mdx","absolutePath":"C:/Users/grigo/OneDrive/Desktop/Webpage Draft/nextjs-boilerplate-main - Copy/content/docs/hello.mdx"}), toRuntime("doc", docs_1, {"path":"index.mdx","absolutePath":"C:/Users/grigo/OneDrive/Desktop/Webpage Draft/nextjs-boilerplate-main - Copy/content/docs/index.mdx"}), toRuntime("doc", docs_2, {"path":"test.mdx","absolutePath":"C:/Users/grigo/OneDrive/Desktop/Webpage Draft/nextjs-boilerplate-main - Copy/content/docs/test.mdx"}), toRuntime("doc", docs_3, {"path":"TimeToShine\\NewDoc.mdx","absolutePath":"C:/Users/grigo/OneDrive/Desktop/Webpage Draft/nextjs-boilerplate-main - Copy/content/docs/TimeToShine/NewDoc.mdx"})];
 export const meta = [];
