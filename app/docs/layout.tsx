@@ -2,6 +2,7 @@ import { DocsLayout } from 'fumadocs-ui/layouts/docs';
 import type { ReactNode } from 'react';
 import { baseOptions } from '@/app/layout.config';
 import { source } from '@/lib/source';
+import { ThemeProvider } from 'next-themes'
 
 export default function Layout({ children }: { children: ReactNode }) {
   return (
@@ -9,7 +10,9 @@ export default function Layout({ children }: { children: ReactNode }) {
     sidebar={{
       hideSearch:true,
     }} tree={source.pageTree} >
-      {children}
+    <ThemeProvider enableSystem={true}> {children} </ThemeProvider> 
     </DocsLayout>
   );
 }
+
+

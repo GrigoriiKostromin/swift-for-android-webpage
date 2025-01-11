@@ -6,7 +6,7 @@ import Image from "next/image";
 
 
 const navigation = [
-  { name: 'Dashboard', href: './', current: true },
+  { name: 'Dashboard', href: '../../', current: true },
   { name: 'About-Us', href: './about-Us', current: false },
   { name: 'Documentation', href:"./docs", current: false },
   { name: 'Calendar', href: '#', current: false },
