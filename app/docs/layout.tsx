@@ -6,11 +6,11 @@ import { ThemeProvider } from 'next-themes'
 
 export default function Layout({ children }: { children: ReactNode }) {
   return (
-    <DocsLayout 
+    <DocsLayout  disableThemeSwitch={true}
     sidebar={{
       hideSearch:true,
     }} tree={source.pageTree} >
-    <ThemeProvider enableSystem={true}> {children} </ThemeProvider> 
+    <ThemeProvider> {children} </ThemeProvider> 
     </DocsLayout>
   );
 }
