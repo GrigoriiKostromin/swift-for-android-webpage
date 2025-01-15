@@ -1,10 +1,11 @@
 import type { Config } from "tailwindcss";
 import { createPreset } from 'fumadocs-ui/tailwind-plugin';
 
+
+/** @type {import('tailwindcss').Config} */
 export default {
   darkMode: "class",
   content: [
-    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     './content/**/*.{md,mdx}',
@@ -22,7 +23,7 @@ export default {
     
   },
   presets: [createPreset()],
-  plugins: [require('@tailwindcss/typography')],
+  // plugins: [require('@tailwindcss/typography')],
 } satisfies Config;
 
 
