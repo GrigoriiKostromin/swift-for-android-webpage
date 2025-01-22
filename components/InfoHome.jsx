@@ -55,7 +55,7 @@ const HomeInfoItemOneTextW= ({ title, text}) => {
     >
       <div>
       <div 
-      className="border border-black/[.08] shadow rounded-md p-4 max-h-4xl ms-auto" style={{
+      className="border dark:border-[#ccc] border-black/[.08] shadow rounded-md p-4 max-h-4xl ms-auto" style={{
         width: 896,
       }}>
                               <div className="flex space-x-4">
@@ -84,7 +84,7 @@ const HomeInfoItemOneTextAuto = ({ title, text}) => {
       transition={{ ease: "easeInOut", duration: 0.75 }}
     >
       <div>
-      <div className="border border-black/[.08] shadow rounded-md p-4 max-w-4xl  max-h-4xl w-full ms-auto">
+      <div className="border dark:border-[#ccc] border-black/[.08] shadow rounded-md p-4 max-w-4xl  max-h-4xl w-full ms-auto">
                               <div className="flex space-x-4">
                               
                                 <div className="flex-1 space-y-4 py-1">
@@ -111,7 +111,7 @@ const HomeInfoItemTwoTextAuto = ({ title1, text1 ,title2, text2}) => {
     >
        <div className="border border-transparent  max-w-4xl flex gap-2">
                     
-                    <div className="border border-black/[.08] shadow rounded-md p-4 w-1/2 max-h-4xl ms-auto col-span-2">
+                    <div className="border dark:border-[#ccc] border-black/[.08] shadow rounded-md p-4 w-1/2 max-h-4xl ms-auto col-span-2">
                     <div className="flex ">
                       <div className="flex-1 space-y-4 py-1">
                         <div className="font-semibold">{title1}</div>
@@ -122,7 +122,7 @@ const HomeInfoItemTwoTextAuto = ({ title1, text1 ,title2, text2}) => {
                     </div>
                     </div>
 
-                    <div className="border border-black/[.08] shadow rounded-md p-4 w-1/2  max-h-4xl ms-auto ">
+                    <div className="border dark:border-[#ccc] border-black/[.08] shadow rounded-md p-4 w-1/2  max-h-4xl ms-auto ">
                     <div className="flex space-x-4">
                       <div className="flex-1 space-y-4 py-1">
                         <div className="font-semibold">{title2}</div>
@@ -147,7 +147,7 @@ const HomeInfoItemThreeTextAuto = ({ title1, text1 ,title2, text2}) => {
     >
        <div className="border border-transparent  max-w-4xl flex gap-2">
                     
-                    <div className="border border-black/[.08] shadow rounded-md p-4 max-w-lg max-h-4xl w-full ms-auto col-span-2">
+                    <div className="border dark:border-[#ccc] border-black/[.08] shadow rounded-md p-4 max-w-lg max-h-4xl w-full ms-auto col-span-2">
                     <div className="flex ">
                       <div className="flex-1 space-y-4 py-1">
                         <div className="font-semibold">{title1}</div>
@@ -158,7 +158,7 @@ const HomeInfoItemThreeTextAuto = ({ title1, text1 ,title2, text2}) => {
                     </div>
                     </div>
 
-                    <div className="border border-black/[.08] shadow rounded-md p-4 max-w-lg  max-h-4xl w-full ms-auto ">
+                    <div className="border dark:border-[#ccc] border-black/[.08] shadow rounded-md p-4 max-w-lg  max-h-4xl w-full ms-auto ">
                     <div className="flex space-x-4">
                       <div className="flex-1 space-y-4 py-1">
                         <div className="font-semibold">{title2}</div>
@@ -183,7 +183,7 @@ const HomeInfoItemOneTextAutoImg = ({ title1, text1 , imgSource}) => {
     >
        <div className="border border-transparent  max-w-4xl flex gap-2">
                     
-                    <div className="border border-black/[.08] shadow rounded-md p-4 min-w-lg max-h-4xl w-full ms-auto col-span-2">
+                    <div className="border dark:border-[#ccc] border-black/[.08] shadow rounded-md p-4 min-w-lg max-h-4xl w-full ms-auto col-span-2">
                     <div className="flex ">
                       <div className="flex-1 space-y-4 py-1">
                         <div className="font-semibold">{title1}</div>
@@ -194,7 +194,7 @@ const HomeInfoItemOneTextAutoImg = ({ title1, text1 , imgSource}) => {
                     </div>
                     </div>
 
-                    <div className="border border-black/[.08] shadow rounded-md p-4 max-w-lg  max-h-4xl w-full ms-auto ">
+                    <div className="border dark:border-[#ccc] border-black/[.08] shadow rounded-md p-4 max-w-lg  max-h-4xl w-full ms-auto ">
                     <div className="flex space-x-4">
                       <div className="flex-1 space-y-4 py-1">
                          <motion.img
@@ -227,7 +227,7 @@ const HomeInfoItemTwoTextAutoImg = ({ title1, text1 ,title2, text2, imgSource}) 
     >
        <div className="border border-transparent  max-w-4xl flex gap-2">
                     
-                    <div className="border border-black/[.08] shadow rounded-md p-4 w-1/3 max-h-4xl ms-auto col-span-2">
+                    <div className="border dark:border-[#ccc] border-black/[.08] shadow rounded-md p-4 w-1/3 max-h-4xl ms-auto col-span-2">
                     <div className="flex ">
                       <div className="flex-1 space-y-4 py-1">
                         <div className="font-semibold">{title1}</div>
@@ -238,7 +238,7 @@ const HomeInfoItemTwoTextAutoImg = ({ title1, text1 ,title2, text2, imgSource}) 
                     </div>
                     </div>
 
-                    <div className="border border-black/[.08] shadow rounded-md p-4 max-w-lg  max-h-4xl w-1/3  ms-auto col-span-2">
+                    <div className="border dark:border-[#ccc] border-black/[.08] shadow rounded-md p-4 max-w-lg  max-h-4xl w-1/3  ms-auto col-span-2">
                     <div className="flex space-x-4">
                       <div className="flex-1 space-y-4 py-1">
                         <div className="font-semibold">{title2}</div>
@@ -249,7 +249,7 @@ const HomeInfoItemTwoTextAutoImg = ({ title1, text1 ,title2, text2, imgSource}) 
                     </div>
                     </div>
 
-                    <div className="border border-black/[.08] shadow rounded-md p-4 max-w-lg max-h-4xl w-1/3 ms-auto col-span-2">
+                    <div className="border dark:border-[#ccc] border-black/[.08] shadow rounded-md p-4 max-w-lg max-h-4xl w-1/3 ms-auto col-span-2">
                     <div className="flex ">
                       <div className="flex-1 space-y-4 py-1">
                       <motion.img
