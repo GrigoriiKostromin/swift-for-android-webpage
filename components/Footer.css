@@ -1,45 +1,21 @@
-/* Footer.css (example styling) */
 
 .footer {
-    
-  border-top-width: 1px;
-  border-color: rgb(0 0 0 / .08);
-  color: black;
-  border-radius: 0.375rem /* 6px */;
-  padding: 20px;
-  text-align: center;
+  padding: 2rem;
+
 }
 
-.footer-content {
+.footer-nav {
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  
+  gap: 1rem;
 }
 
-.footer-section {
-  margin: 10px;
-}
+.footer-nav a {
 
-.footer-section h4 {
-  border-bottom: 2px solid black;
-  padding-bottom: 5px;
-}
-
-.footer-section ul {
-  list-style: none;
-  padding: 0;
-}
-
-.footer-section ul li a {
-  color: black;
   text-decoration: none;
 }
 
-.footer-section ul li a:hover {
-  text-decoration: underline;
+.footer-nav img {
+  width: 24px;
+  height: 24px;
 }
-
-.footer-bottom {
-  margin-top: 20px;
-  font-size: 0.8em;
-} 

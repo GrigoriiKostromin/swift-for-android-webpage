@@ -65,7 +65,7 @@ export default function RootLayout({
           <RootProvider>{children}</RootProvider>
 
         
-          <Footer/>
+          
         </ThemeProvider>
         
           </ReactLenis>

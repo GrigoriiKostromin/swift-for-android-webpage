@@ -11,6 +11,7 @@ import DynamicTextField from '../components/DynamicTextField';
 import getDynamicTextFieldMetadata from '../utils/getDynamicTextField';
 import TextChangeWidth from '../components/TextChangeWidth';
 import ButtonClientHome from '../components/ButtonClientHome';
+import  Footer  from "@/components/footer";
 
 
 
@@ -105,9 +106,10 @@ export default function Home() {
       <div className="row-start-4">
       <ButtonClientHome/>
       </div>
+      <div className="row-start-5 col-start-0"><Footer/></div>
       
-                
     </div>
+    
   );
 }
 

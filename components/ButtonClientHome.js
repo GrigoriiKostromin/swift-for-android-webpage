@@ -22,7 +22,7 @@ const ButtonClientHome = () => {
           <SlArrowDown className="animate-pulse"/>
       </button>
       
-      <div   id="infoRef" >
+      <div className="mt-28"  id="infoRef" >
       <InfoHome />
       </div>
     </div>
