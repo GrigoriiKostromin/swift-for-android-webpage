@@ -1,3 +1,7 @@
+Here is the corrected version of your `.md` file with all grammar, spelling, and clarity issues fixed:
+
+---
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -14,42 +18,44 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
+## Edit Homepage
 
+Follow these steps to change the content on the homepage:
 
-## Edit homepage
+1. **The short description**
+   - Open the `content/HomePage` folder.
+   - By editing `HomePageText.md`, you can change the description of the homepage.
 
-Follow those steps to change the content on the homepage
+2. **The main content**
+   - There are five boxes that can be used to display content.
+   - Open the `components` folder.
+   - Open the `InfoHome.jsx` file.
+   - There, you will find the function `InfoHome`.
+   - Insert the box you wish to add to the content of your page.
+   
+   **Example:**
+   ```jsx
+   <HomeInfoItemOneTextW title={content.titleVariable} text={content.textVariable} />
+   ```
+   - Open the `content/HomePage` folder.
+   - Open the `HomePageInfo.mdx` file.
+   - Add new variables for the title, content, or images. The variable names should match the ones used in the box added previously.
 
-1. The short dicription
-- Open the `content/HomePage` folder.
-- By editing `HomePageText.md` the description of the homepage can be changed
+   **Example:**
+   ```js
+   export const titleVariable = "Title";
+   export const textVariable = "Text/Content";
+   ```
 
-2. The main content
-- There are five boxes, which can be used to display content.
-- Open the `componets` folder.
-- Open the `InfoHome.jsx` file.
-- There you find the functon InfoHome.
-- Insert the box you wish to add to the content of you page
-Example: <HomeInfoItemOneTextW title={content.titleVariable} text={content.textVariable} />
-- Open the `content/HomePage` folder.
-- Open the `HomePageInfo.mdx` file.
-- Add new Variables. For Title/Content/Images. The Variables should match the Name to the box previosly added
-Example:
-export const titleVariable = "Title";
-export const textVariable = "Text/Content";
+Since all the main page content is stored in a single file, making changes can be more difficult. If necessary, the editing process could be simplified by creating a separate document for each box. However, this could lead to confusion.
 
-Because it was requested to have all the content for the main page in one file it is harder to make changes to it.
-If it is required the editing of the homepage could be simplified, but therefore there would be one document per box and this could leed to irretation.
+## Edit Documentation
 
-
-## Edit documentation
-
-- Open the `componets/docs` folder.
-- If a .md file is added to the `/docs` folder. The content will generate in the documentation on the website
-- Edit the `meta.json` file to sort the new added file amongs the others. A folder can also be sorted like a file
-- If a folder is added a `meta.json` is needed to sort the content in that folder
-- If the `meta.json` is not created inside a folder the files would be sort alphabetacly.
-
+- Open the `components/docs` folder.
+- If a `.md` file is added to the `/docs` folder, its content will be automatically generated in the website documentation.
+- Edit the `meta.json` file to organize the newly added file among the others. A folder can also be sorted like a file.
+- If a folder is added, a `meta.json` file is required to sort the content inside that folder.
+- If `meta.json` is not created inside a folder, the files will be sorted alphabetically.
 
