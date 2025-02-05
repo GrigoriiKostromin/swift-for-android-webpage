@@ -17,8 +17,14 @@ pnpm dev
 # or
 bun dev
 ```
+If server does not start try updating npm
+```bash
+npm install -g npm
+```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
+
+
 
 ## Edit Homepage
 
