@@ -41,7 +41,7 @@ Follow these steps to change the content on the homepage:
    ```
    - Open the `content/HomePage` folder.
    - Open the `HomePageInfo.mdx` file.
-   - Add new variables for the title, content, or images. The variable names should match the ones used in the box added previously.
+   - Add new variables for the title, content, or images. The variable names should match the ones used in the box added previously. Every variable should be unique. If a variable appears to be already used, threre might be a conflict.
 
    **Example:**
    ```js

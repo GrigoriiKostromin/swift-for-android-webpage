@@ -46,6 +46,8 @@ export const InfoHome = () => {
   )
 }
 
+/// Box with one title and one text. The widht of the Box always stays the same 
+/// To use the Box copy <HomeInfoItemOneTextW title={content.box_w_same_textVariable} text={content.box_w_same_textVariable} /> and insert your own Variables
 const HomeInfoItemOneTextW= ({ title, text}) => {
   return (
     <motion.div
@@ -74,8 +76,8 @@ const HomeInfoItemOneTextW= ({ title, text}) => {
   );
 };
 
-
-
+/// Box with one title and one text. The widht of the Box changes according to the amount af text 
+/// To use the Box copy <HomeInfoItemOneTextW title={content.box_w_cahnge_textVariable} text={content.textVariable} /> and insert your own Variables
 const HomeInfoItemOneTextAuto = ({ title, text}) => {
   return (
     <motion.div
@@ -101,7 +103,9 @@ const HomeInfoItemOneTextAuto = ({ title, text}) => {
   );
 };
 
-
+/// Box with two titles and two texts.  The widht of the Box always stays the same 
+/// To use the Box copy <HomeInfoItemOneTextW title={content.textVariable} text={content.textVariable} 
+//                                            title2={content.textVariable2} text2={content.textVariable2] /> and insert your own Variables
 const HomeInfoItemTwoTextAuto = ({ title1, text1 ,title2, text2}) => {
   return (
     <motion.div
@@ -174,6 +178,8 @@ const HomeInfoItemThreeTextAuto = ({ title1, text1 ,title2, text2}) => {
   );
 };
 
+/// Box with one title and one text. The widht of the Box always stays the same 
+//  To use the Box copy <HomeInfoItemOneTextAutoImg title1={content.titleBox_Img} text1={content.contentBox_Img } imgSource={content.imgBox_Img}/>
 const HomeInfoItemOneTextAutoImg = ({ title1, text1 , imgSource}) => {
   return (
     <motion.div
@@ -218,6 +224,9 @@ const HomeInfoItemOneTextAutoImg = ({ title1, text1 , imgSource}) => {
   );
 };
 
+//Box with two titles and two texts and an image.  The widht of the Box always stays the same 
+// To use the Box copy  <HomeInfoItemTwoTextAutoImg  title1={content.titleBox_TwoImg1} text1={content.contentBox_TwoImg1 }
+//                                                   title2={content.titleBox_TwoImg2} text2={content.contentBox_TwoImg2 } imgSource={content.imgBox_TwoImg}/>
 const HomeInfoItemTwoTextAutoImg = ({ title1, text1 ,title2, text2, imgSource}) => {
   return (
     <motion.div
