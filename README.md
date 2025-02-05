@@ -1,7 +1,5 @@
 ## Webpage: swift-for-android
 
-Here is the corrected version of your `.md` file with all grammar, spelling, and clarity issues fixed:
-
 ---
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
