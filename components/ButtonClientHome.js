@@ -6,7 +6,7 @@ import { SlArrowDown } from "react-icons/sl";
 
 
 const ButtonClientHome = () => {
-    const infoRef = useRef<HTMLDivElement | null>(null);
+    const infoRef = useRef (null);
   return (
     <div>
      <button onClick={() => {
